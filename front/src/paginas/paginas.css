@@ -1,0 +1,32 @@
+.principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  border: 5px ridge gray;
+  width: 12%;
+  min-width: 150px;
+  height: 77vh;
+  overflow: auto;
+  justify-content: space-between;
+}
+
+.corpo {
+  background: rgb(255, 255, 255);
+  border: 5px ridge gray;
+  width: 88%;
+  height: 77vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: auto;
+}

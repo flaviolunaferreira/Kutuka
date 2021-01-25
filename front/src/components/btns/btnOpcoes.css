@@ -1,0 +1,22 @@
+button {
+  background: linear-gradient(
+    black,
+    rgb(112, 105, 105),
+    white,
+    gray,
+    black);
+  width: 96%;
+ 
+  margin: 3px 3px 0 3px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-shadow: white 1px 1px 1px;
+}
+
+button:hover {
+  border: 3px rgb(80, 184, 80) solid;
+  box-shadow: 2px 2px 15px rgb(72, 161, 72);
+  text-shadow: rgb(136, 184, 136) 1px 1px 1px;
+}

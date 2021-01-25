@@ -1,0 +1,18 @@
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  background-color: rgba(194, 154, 138, 0.363);
+  padding: 0.5rem;
+  width: 180px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem {
+  width: 100%;
+  image-rendering: auto;
+  border-radius: 5px;
+}
+
