@@ -1,1 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.empresa {
+  padding: 1.4rem;
+  color: blue;
+  text-shadow: 1px 1px 1px white;
+}
+
+.opcaoBuscar {
+  width: 40vw;
+}
+
+.input-procurar {
+  margin: 2rem;
+  padding: 1rem;
+  width: 100%;
+  height: 15%;
+  border: 5px inset lightgray;
+  border-radius: 5px;
+}
+
+.carrinho {
+  color: rgb(2, 39, 2);
+  text-shadow: 1px 1px 1px rgba(200, 199, 199, 0);
+  font-size: 16px;
+  text-align: left;
+  margin-left: 5rem;
+  width: 25vw;
+  padding: 2rem;
+  line-height: 1.5px;
+}
