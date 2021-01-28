@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+
+img {
+  width: 100%;
+  max-height: 74%;
+  min-height: 40%;
+  image-rendering: optimizeSpeed;
+  background-position: center;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: space-around;
+}
+

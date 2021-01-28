@@ -6,6 +6,7 @@ import Home from './paginas/Home';
 import Principal from './paginas/Principal';
 import './app.css';
 import Loading from './components/loading/loading';
+import TelaDeProduto from './paginas/TelaDeProduto';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Title/>
         </div>
         <div className="area-de-trabalho">
+          <Route path="/produto/:id" component={TelaDeProduto}/>
           <Route path="/principal" component={Principal}/>
-          <Route path="/loading" component={Loading} />
           <Route exact path="/" component={Home}/>
         </div>
         <div className="rodape">

@@ -1,0 +1,9 @@
+.rating span {
+  color: #d30000;
+  margin: 0.2rem;
+}
+
+.rating span:last-child {
+  color: #000000;
+}
+
